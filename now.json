@@ -5,7 +5,7 @@
         "use": "@now/node-server" 
     }],
     "routes": [{
-        "src": "/posts",
+        "src": "/api/posts",
         "dest": "/index.js",
         "methods": ["GET"]
     }]
