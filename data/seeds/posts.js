@@ -5,7 +5,7 @@ exports.seed = function(knex) {
         .then(function () {
         // Inserts seed entries
         return knex('posts').insert([
-            { title: "Hello, friend", body: "My name is Frank Martinez", author: "leTanque" }
+            { title: "Hello, friend", body: "My name is Frank Martinez", author: "le Tanque" }
         ]);
     });
 };
